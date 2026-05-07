@@ -1,0 +1,145 @@
+/* Later on see if you can make all of this responsive same with the other css */
+
+/* Fullscreen scene with background */
+
+
+.scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sceneBG, .goBG {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Textbox overlay at bottom (visual novel style) */
+.textbox {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 18px 22px;
+  color: white;
+
+  /* Semi-transparent so background still shows */
+  background: rgba(50, 0, 60, 0.75);
+
+  /* Optional styling */
+  border-top: 2px solid rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+}
+
+.textboxText {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+/* Controls area */
+.textboxControls {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Choice buttons layout */
+.choices {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* Buttons */
+.btn, .progressBtn, .restartBtn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: plum;
+  color: #2c12ad;
+  /* font-weight: 700; */
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btnChoice {
+  background: #ffd1f3;
+}
+
+
+.btnContainer, .goBtn {
+  /* background-color: yellow; */
+  position: fixed; /* Stays fixed in corner while scrolling */
+  top: 15px;       /* Distance from top edge */
+  right: 15px;     /* Distance from right edge */
+  display: flex;   /* Aligns buttons in a row */
+  gap: 10px;       /* Spacing between buttons */
+  z-index: 1000;   /* Ensures buttons stay on top of other content */
+}
+
+/* progression button */
+
+/* .progressBtn {
+  background-color: yellow;
+} */
+
+.progressOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(0, 0, 0, 0.45);
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.progressCard {
+  width: min(520px, 95vw);
+  border-radius: 14px;
+  background: rgba(50, 0, 60, 0.95);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 16px;
+
+}
+.progressHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.progressTitle {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.progressClose {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ffd1f3;
+  color: #1b0b1f;
+  /* font-weight: 900; */
+  cursor: pointer;
+}
+
+.progressBody p {
+  margin: 10px 0;
+}
+/* .restartBtn {
+  background-color: yellow;
+} */
+
+/* Start over */

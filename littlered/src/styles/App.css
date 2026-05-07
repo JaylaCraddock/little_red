@@ -1,0 +1,76 @@
+ 
+ 
+* {
+ 
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+ 
+ 
+ #gameScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+ 
+
+}
+
+html {
+  background-color: black;
+}
+
+
+/* #beginButton {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 47.5%;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+} */
+
+
+
+#credit {
+  color: white;
+    /* background-color: antiquewhite; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+    width: 500px;
+    height: auto;
+}
+
+.btnContainer2 {
+ position: absolute;       /* center relative to the screen */
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;             /* space between buttons */
+  /* NUDGE THE WHOLE GROUP */
+  transform: translate(10px, -10px); /* +x = right, -y = up */
+}
+
+#beginButton, #creditBtn {
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;          /* optional */
+  border-radius: 10px;   /* optional */
+  min-width: 180px; 
+}
+
+
