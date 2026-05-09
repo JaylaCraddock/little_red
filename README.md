@@ -16,7 +16,7 @@ Throughout the entire story includes the progress and restart button that allows
 
 ## Second story scene with choices
 The second scene showcases the choices the user can choose from, the choices that the user makes determines the outcome of the story. 
-<img  alt="Showcases images of all of the choices you can make during the scene in the Kitchen the image includes: cloud that is in a chat bubble, chess piece, house in a chat bubble, chocolate chip cookie, deer, pencil, The Three Little Bears, Jack and the Beanstalk, paint palette, family in a chat bubble, berry pie, sandwich, tic-tac-toe, poker cards, spade, pottery vase, The boy who cried wolf, broom, The Tortoise and the Hare, dishes, fish, duck and checkers. " src="./littlered/src/assets/ScreenShot.png" />
+<img  alt="Showcases images of all of the choices you can make during the scene in the Kitchen the image includes: cloud that is in a chat bubble, chess piece, house in a chat bubble, chocolate chip cookie, deer, pencil, The Three Little Bears, Jack and the Beanstalk, paint palette, family in a chat bubble, berry pie, sandwich, tic-tac-toe, poker cards, spade, pottery vase, The boy who cried wolf, broom, The Tortoise and the Hare, dishes, fish, duck and checkers. " src="./littlered/src/assets/choicesScreenShot.png" />
 
 ## Third story scene
 The third scene shows the outcome of picking the wrong choice in the story that leads to a game over screen that the user can click on the restart adventure button to start over from the beginning.
