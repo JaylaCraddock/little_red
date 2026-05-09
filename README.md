@@ -61,7 +61,7 @@ The rest of the scenes in the story include:
 
 
 ## Another Creepy Forest:
-<img  alt="Forest that has several trees, plants and bushes in a dark setting that has a tint of light blue. That includes the progress and restart story button at the top right corner with dialogue at the bottom of the screen that says: Outside in the forest are the Huntsman and Little Red as they head back to Grandma's cabin. They find the big bad wolf along the path growling at them as the wolf and the Huntsman have their stadn off with Little Red hiding behind the Huntsman." src="./littlered/src/assets/creepyForestScreenShot.png" />
+<img  alt="Forest that has several trees, plants and bushes in a dark setting that has a tint of light blue. That includes the progress and restart story button at the top right corner with dialogue at the bottom of the screen that says: Outside in the forest are the Huntsman and Little Red as they head back to Grandma's cabin. They find the big bad wolf along the path growling at them as the wolf and the Huntsman have their stadn off with Little Red hiding behind the Huntsman." src="./littlered/src/assets/creepyForestTwoScreenShot.png" />
 
 
 ## Credit list:
