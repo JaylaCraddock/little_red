@@ -43,7 +43,7 @@ const App = () => {
     <div className="btnContainer2">
     <button type="button" id="beginButton" onClick={handleGoToForest}> Begin</button> 
     <button id="creditBtn" onClick={handleRedirect}>Credits</button></div>
-    <footer><p id="credit">Made by Jayla Craddock in April 2026 for ITSE 2371-001 Front-End Frameworks </p></footer></>
+    <footer><p id="credit">Made by Jayla Craddock in April 2026 for ITSE 2371-001 Front-End Web Frameworks </p></footer></>
   );
 
 };
